@@ -1,0 +1,184 @@
+ 
+Effects Of News Sentiment on Financial Market: An Overview
+                    Jheelam Hossain
+Department of Computer Science and Engg.
+Lovely Professional University
+Phagwara, Punjab, India
+jheelamhossain147@gmail.com
+				 
+			
+
+Abstract:
+Overall, the introduction highlights the challenges faced by investors and financial institutions in predicting market trends due to the complex nature of global financial markets. It discusses the growing interest in using news sentiment analysis as an alternative method to predict market volatility, emphasizing the relevance of sentiment analysis in financial markets. The literature review explores previous research on the use of news sentiment machine learning to forecast market volatility, citing studies that have shown the potential of these methods. It also identifies knowledge gaps in the existing research and suggests future research directions. The methodology section outlines various studies that have examined the relationship between news sentiment and stock market volatility, using techniques such as sentiment analysis, text mining, and social media analysis. These studies provide insights into the effectiveness of news sentiment analysis in predicting financial market volatility.
+
+Keywords: - Natural Language Processing, Neural Network, Deep Learning, Supervised Learning
+
+I.	INTRODUCTION
+
+Investors and financial institutions face challenges in accurately anticipating market trends due to the complex and dynamic global financial markets. The technical and fundamental analysis, which are traditional approaches to analysing market volatility, have been insufficient in explaining the volatile and
+unpredictable nature of markets. In recent years, there has been a growing interest in exploring alternative methods that can help predict volatility in financial markets.
+
+A singular promising approach is the use of news sentiment analysis, which involves analysing the 
+sentiment of news articles and social media posts. to gauge the general mood of the market. Real-time news data and advancements in natural language processing (NLP) techniques have led to the significant interest in this technique.
+The relationship between news mentality and volatility in financial markets has been widely studied in the fields of finance and computer 
+
+
+
+science. Several studies have shown that news sentiment can act as a useful indicator to predict 
+market volatility and provide valuable information to investors and financial institutions.
+
+This research paper aims to provide an overview of the current state of forecasting research. financial market volatility using news sense. The article discusses the concept of news sentiment analysis, its relevance to financial markets, and various methods used to predict market volatility.
+
+News sentiment analysis is a form of text mining that extracts and analyses sentiments and opinions expressed in news stories. articles, social media messages and other textual information. It uses NLP 
+techniques to identify and quantify the sentiment of a text, whether it is positive, negative or neutral. This approach is based on the assumption that emotions expressed in the news and social media can influence the behaviour of market participants and ultimately market volatility.
+
+Volatility in financial markets refers to fluctuations in the prices of financial assets over a period of time. It is influenced by various factors such as economic events, business news, political events and investor sentiment. High market volatility can result in significant losses for investors, so it is important to predict and manage it.
+
+News intelligence is used to forecast market volatility based on the efficient hypothesis that markets reflect all available information and that new information rapidly adds up to market prices. This approach is called "market intelligence”. The outlook on news can be viewed as an additional source of data that can assist investors in forecasting market trends.
+
+News sentiment has several methods and models to predict market volatility. One of the most common approaches is the event research methodology, which analyses the market's reaction to specific news events. Financial research has extensively employed this technique and observed positive outcomes in predicting market instability.
+
+Another popular approach is the use of machine learning algorithms such as Support Vector Machines (SVM) and Artificial Neural Networks (ANN). analyse news sentiment and predict market volatility. The ability to process massive data sets and identify intricate patterns that may not be visible to human observers is one of the advantages of these techniques.
+
+In addition, some researchers have also explored the use of sentiment analysis in social media data such as Twitter, predicts market volatility. The justification for this method is that social media posts can reflect public perception of a particular enterprise or sector, potentially increasing market instability.
+
+In conclusion, predicting financial market volatility using news sentiment is a growing field of research that has shown promising results. This method has the potential to assist investors and financial institutions in making more informed decisions and managing market risks. However, there are still some challenges to be addressed, such as the accuracy of sentiment analysis and the incorporation of other factors that can impact market volatility. This research paper will further explore these challenges and provide insights into the future direction of this field.
+
+
+II.	LITERATURE REVIEW
+
+Financial market volatility prediction has gained significant attention due to its potential impact on investment decisions and market stability. In recent years, researchers have explored the use of news sentiment machine learning to forecast market volatility. This literature review aims to integrate and synthesize existing research findings on this topic, identify knowledge gaps, and suggest potential future research directions.
+
+Audrino, Sigrist, and Ballinari (2018) [1] investigated the impact of sentiment and attention measures on stock market volatility. They found that both sentiment and attention measures significantly affect stock market volatility. The study suggested that incorporating news sentiment machine learning into volatility prediction models can enhance forecasting accuracy.
+
+Khan et al. (2020) [2] also delved into stock market prediction using machine learning classifiers and social media news. Their study highlighted the potential of machine learning models in leveraging social media and news sentiment for accurate market prediction. The findings indicated that news sentiment machine learning can contribute to the development of robust prediction models for financial market volatility.
+
+In contrast, Rustam et al. (2021) [3] focused on supervised machine learning models for COVID-19 tweet sentiment analysis. While their study was not directly related to financial market volatility prediction, it underscored the significance of sentiment analysis in capturing market-related emotions and opinions from social media and news. Incorporating similar sentiment analysis techniques into financial market volatility prediction models could be a promising avenue for future research.
+
+Khedr, Salama, and Yaseen (2017) [4] explored predicting stock market behaviour using data mining techniques and news sentiment analysis. Their findings emphasized the potential of data mining and sentiment analysis in forecasting market trends. Integrating sophisticated data mining and sentiment analysis methods with machine learning models could yield more accurate predictions of financial market volatility.
+
+A study by Bollen, Mao, and Zeng (2011) [5] examined the impact of sentiment analysis on predicting market volatility. The researchers used a massive dataset of news articles to apply machine learning algorithms to generate indicators of sentiment. They found that sentiment analysis was effective in predicting stock market volatility and outperformed traditional market volatility prediction models.
+
+Another study by Tetlock (2007) [6] used text mining to examine the impact of news stories on stock market volatility. The researcher analyzed a dataset of news articles from the Wall Street Journal and the Dow Jones index and found that negative news stories had a stronger impact on stock market volatility than positive ones. The study also highlighted that financial media can influence market dynamics by providing an exaggerated view of market events.
+Social media has become a vital source of news and information, and its impact on financial markets has been explored in several studies. Zhang, Mao, and Chen (2011) [7] analyzed social media data to predict stock market volatility and found that social media sentiments are significantly related to stock market volatility. The study also showed that incorporating social media sentiments improved the accuracy of stock market volatility prediction models.
+A study by Ehrmann and Fratzscher (2015) [8] explored the impact of economic news on stock market volatility. The researchers used a dataset of news articles from major newspapers and applied machine learning techniques to extract sentiments from the news. The study found that negative economic news has a more significant impact on stock market volatility than positive news.
+It is evident from the reviewed studies that news sentiment machine learning holds promise for predicting financial market volatility. However, there are knowledge gaps that warrant further exploration. Firstly, the existing research primarily focuses on the impact of sentiment analysis on market volatility prediction, but there is a need to investigate the influence of news attention measures as well. Secondly, while studies have demonstrated the potential of machine learning models, there is a lack of comparative analyses of different machine learning algorithms for volatility prediction in the context of news sentiment. Future research should aim to address these gaps and further enhance the understanding of how news sentiment machine learning can be leveraged for accurate financial market volatility prediction.
+III.	METHODLOGY
+The dataset for this project has been collected from Kaggle. This dataset has been last updated on 12th April, 2024.
+The first step in implementation is data preprocessing. It is a very important task in NLP (Natural Language Processing). The main preprocessing methods used here are: tokenizing, lemmatizing, removal of stop words, removal of punctuations. Here, I have used a pre-processed dataset that is properly labelled.
+For the automatic detection of sentiments, we need use a Bag of Word technique for text mining. We need two types of words collection; i.e. positive and negative. 
+The algorithm follows the following steps:
+1.	Tokenize the dataset into word vectors.
+2.	Prepare a dictionary which contains words with its sentiments (positive, negative and neutral)
+3.	Check each and every word against the sentiments present in the dictionary.
+4.	Count the number of words that are positive, negative and neutral.
+5.	Count the score
+6.	If the score is 0 the article is neutral.
+7.	If the score is more than 0 the article is positive, else negative. 
+The next step is to convert the texts into meaningful vectors that can be clearly understood by the ML model. This is being done to reduce the complexity and to make the document easier to work with. Here, TF-IDF (Term Frequency-Inverse Dense Frequency) has been applied. This creates counted weights for the input data. It is based in the occurrences of the words in the entire data.
+Now, comes the part of model training. In this stage, we are already read to build and train the Machine Learning model. Here, we are using Logistic Regression. After analysis most researches we can see that SVM (Support Vector Machine), Random Forest and Naïve Bayes Classification algorithms performs the best, thus we will use all of the three. We will compare the results and accuracy of each of the models.
+We have to split the dataset into train-test split. This will fit the model and predict based on all the data points and continuously feed the model with headlines and try and predict the outcomes.
+After everything, we have plotted the data and values into a graphs and tables. The basic components have been shown in Fig.1. 
+
+ 
+
+Fig.1: - Basic flowchart of training and prediction of sentiments
+
+
+Comparison of classifier models and their accuracy has been shown in Fig.2. The datasets used and their size has been shown in Fig.3.The confusion matrix of the classifier models is shown in Fig.4.
+
+
+
+
+
+
+
+
+CLASSIFICATION   ALGORITHMS	TEST OPTIONS
+	Classifier	5-cross validation	10-cross validation	15- cross validation	70% data split	80% data split
+	Random Forest	85%	90.12%	87.41%	92.45%	85.14%
+	Naïve Bayes	82.19%	80.25%	83.29%	91.25%	89.75%
+	SVM	83.52%	84.68%	82.16%	90.68%	92.16%
+
+	
+	Classifier	5-cross validation	10-cross validation	15- cross validation	70% data split	80% data split
+	Random Forest	87.12%	89.21%	87.52%	93%	88.52%
+	Naïve Bayes	84.43%	82.18%	85%	92.50%	91.86%
+	SVM	85%	86.47%	84.65%	91.59%	94.68%
+	
+	Precision	5-cross validation	10-cross validation	15- cross validation	70% data split	80% data split
+	Random Forest	86.95%	89.13%	88.04%	91.42%	87.43%
+	Naïve Bayes	83%	81.52%	82.15%	90.29%	90.69%
+	SVM	81.25%	85.78%	84.65%	92.01%	93.44%
+	
+	Recall	5-cross validation	10-cross validation	15- cross validation	70% data split	80% data split
+	Random Forest	82.06%	89.91%	88%	92.44%	88.94%
+	Naïve Bayes	81.88%	81.15%	83.07%	89.31%	88.91%
+	SVM	87%	84.48%	82.66%	92.90%	95%
+ 
+                      Fig.2:- Comparision of three classifier models against test options
+ 
+DATASET	SIZE	SOURCE
+All-data	4856 entries	Kaggle
+Fin_cleaned	401 entries	Kaggle
+RoBERTaWeaklyLabelling	2001 entries	Kaggle
+sentimentdataset	733 entries	Kaggle
+Stock Headlines	4102 entries	Kaggle
+ 
+ 
+Fig.3: - Used dataset and entry numbers 
+  
+Fig.4: - Confusion matrix for Naïve Bayes and Random Forest Classifier  
+ 
+Fig .5: - Plotted graphs with sentiments vs news 
+
+
+
+
+
+
+IV.	RESULT AND CONCLUSION
+
+The analysis of financial market volatility using news sentiment can provide valuable insights into the behaviour of financial markets. By analysing the tone and content of news articles related to the financial markets, sentiment analysis tools can predict the direction of market movements and help investors make informed decisions.
+
+One of the main conclusions that can be drawn from this analysis is that news sentiment can have a significant impact on financial markets. Positive news sentiment can lead to an increase in stock prices and market optimism, while negative news sentiment can lead to a decline in stock prices and market pessimism. Therefore, it is important for investors to keep track of news sentiment and adjust their investment strategies accordingly.
+
+Another key result of this analysis is that sentiment analysis tools are becoming increasingly accurate and sophisticated. With the advent of artificial intelligence and machine learning, sentiment analysis algorithms can now analyse large volumes of data and provide real-time updates on market sentiment. This can help investors stay ahead of the curve and make better investment decisions.
+
+In conclusion, the analysis of financial market volatility using news sentiment is a valuable tool for investors looking to make informed decisions in the financial markets. By keeping track of news sentiment and using sentiment analysis tools, investors can anticipate market movements and adjust their investment strategies accordingly. The plotted graphs have been shown in Fig.5. 
+
+ACKNOWLEDGEMENT
+It is with our immense gratitude that we acknowledge the support and help of our professor Dr.Dimple Nagpal, who has always encouraged us into this research. Without her continuous guidance and persistent help, this project would not have been a success for us. We are grateful to the Lovely Professional University, Punjab and the Department of Computer Science without which this project would not have been an achievement.
+
+
+REFERENCES
+[1] Audrino, Francesco, Fabio Sigrist, and Daniele Ballinari. "The impact of sentiment and attention measures on stock market volatility." International Journal of Forecasting 36.2 (2020): 334-357.
+[2] Khan, Muhammad Sarfraz, and Sadia Farooq. "Covid-19 and Pakistan Stock Exchange (PSX): Role of Media Sentiment." Paradigms 15.1 (2021): 11-20.
+[3] Rustam, Furqan, et al. "A performance comparison of supervised machine learning models for Covid-19 tweets sentiment analysis." Plos one 16.2 (2021): e0245909.
+[4] Elsayed Khedr, Ayman, Salama SE, and Nagwa Yaseen. "Predicting Stock Market Behavior using Data Mining Technique and News Sentiment Analysis." (2017).
+[5] Bollen, Johan, Huina Mao, and Xiaojun Zeng. "Twitter mood predicts the stock market." Journal of computational science 2.1 (2011): 1-8.
+[6] Tetlock, Paul C. "Giving content to investor sentiment: The role of media in the stock market." The Journal of finance 62.3 (2007): 1139-1168.
+[7] Li, Qing, et al. "The effect of news and public mood on stock movements." Information Sciences 278 (2014): 826-840.
+[8] Feuerriegel, Stefan, Georg Wolff, and Dirk Neumann. "News sentiment and overshooting of exchange rates." Applied Economics 48.44 (2016): 4238-4250.
+[9] Balahur, Alexandra, et al. "Sentiment analysis in the news." arXiv preprint arXiv:1309.6202 (2013).
+[10] Li, Xiaodong, et al. "News impact on stock price return via sentiment analysis." Knowledge-Based Systems 69 (2014): 14-23.
+[11] Bautin, Mikhail, Lohit Vijayarenu, and Steven Skiena. "International sentiment analysis for news and blogs." Proceedings of the International AAAI Conference on Web and Social Media. Vol. 2. No. 1. 2008.
+[12] Souma, Wataru, Irena Vodenska, and Hideaki Aoyama. "Enhanced news sentiment analysis using deep learning methods." Journal of Computational Social Science 2.1 (2019): 33-46.
+[13] Kalyani, Joshi, Prof Bharathi, and Prof Jyothi. "Stock trend prediction using news sentiment analysis." arXiv preprint arXiv:1607.01958 (2016).
+[14] Mohan, Saloni, et al. "Stock price prediction using news sentiment analysis." 2019 IEEE fifth international conference on big data computing service and applications (BigDataService). IEEE, 2019.
+[15] Chowdhury, Spandan Ghose, Soham Routh, and Satyajit Chakrabarti. "News analytics and sentiment analysis to predict stock price trends." International Journal of Computer Science and Information Technologies 5.3 (2014): 3595-3604.
+[16] Souma, Wataru, Irena Vodenska, and Hideaki Aoyama. "Enhanced news sentiment analysis using deep learning methods." Journal of Computational Social Science 2.1 (2019): 33-46.
+[17] Costola, Michele, et al. "Machine learning sentiment analysis, COVID-19 news and stock market reactions." Research in international business and finance 64 (2023): 101881.
+[18] Bharathi, Shri, and Angelina Geetha. "Sentiment analysis for effective stock market prediction." International Journal of Intelligent Engineering and Systems 10.3 (2017): 146-154.
+[19] Nemes, László, and Attila Kiss. "Prediction of stock values changes using sentiment analysis of stock news headlines." Journal of Information and Telecommunication 5.3 (2021): 375-394.
+[20] Januário, Brenda A., et al. "Sentiment analysis applied to news from the Brazilian stock market." IEEE Latin America Transactions 20.3 (2021): 512-518.
+[21] Mizumoto, Keisuke, Hidekazu Yanagimoto, and Michifumi Yoshioka. "Sentiment analysis of stock market news with semi-supervised learning." 2012 IEEE/ACIS 11th International Conference on Computer and Information Science. IEEE, 2012.
+[22] Agarwal, Arul. "Sentiment analysis of financial news." 2020 12th International Conference on Computational Intelligence and Communication Networks (CICN). IEEE, 2020.
+[23] Januário, Brenda A., et al. "Sentiment analysis applied to news from the Brazilian stock market." IEEE Latin America Transactions 20.3 (2021): 512-518.
+[24] Im Tan, Li, et al. "Rule-based sentiment analysis for financial news." 2015 IEEE International Conference on Systems, Man, and Cybernetics. IEEE, 2015.
+[25] Azar, Pablo Daniel. Sentiment analysis in financial news. Diss. Harvard University, 2009.
+[26] Bharathi, Shri, Angelina Geetha, and Revathi Sathiynarayanan. "Sentiment Analysis of Twitter and RSS News Feeds and Its Impact on Stock Market Prediction." International Journal of Intelligent Engineering & Systems 10.6 (2017).
+[27] Schumaker, Robert P., Yulei Zhang, and Chun-Neng Huang. "Sentiment analysis of financial news articles." 20th Annual Conference of International Information Management Association. 2009.
+[28] Esichaikul, Vatcharaporn, and Chawisa Phumdontree. "Sentiment analysis of Thai financial news." Proceedings of the 2018 2nd International Conference on Software and e-Business. 2018.
+[29] Zhai, Jinjian, Nicholas Cohen, and Anand Atreya. "CS224N Final Project: Sentiment analysis of news articles for financial signal prediction." (2011).
+[30] Dodevska, Lodi, et al. "Predicting company’s stock price direction by using sentiment analysis of news articles." Proceedings of the 15th Annual International Conference on Computer Science and Education in Computer Science. 2019.
